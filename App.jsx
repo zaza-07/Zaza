@@ -505,4 +505,3 @@ export default function CRMApp() {
       {showSMS && <SMSModal client={showSMS} onClose={() => setShowSMS(null)} />}
     </div>
   );
-}
